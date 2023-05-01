@@ -34,7 +34,7 @@ export default {
         }
     },
     components: {
-        Header,
+        Header
     },
     methods: {
         async deleteResto(id) {
@@ -52,7 +52,7 @@ export default {
                 })
             }
             let result = await axios.get("http://localhost:3000/restaurant");
-            this.restaurants = result.data
+            this.restaurants = result.data;
         }
     },
     mounted() {
@@ -68,6 +68,6 @@ td {
 }
 
 table {
-    margin-left: 510px;
+    margin-left: 460px;
 }
 </style>

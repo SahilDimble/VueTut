@@ -20,7 +20,7 @@ export default{
 
 <style>
 .nav{
-    background-color: #333;
+    background-color: #e7750b;
     overflow: hidden;
 }
 .nav a{
